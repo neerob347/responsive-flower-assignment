@@ -86,3 +86,47 @@ button{
 .orange{
     color: rgba(233, 90, 8, 1);
 }
+.our-plants{
+    text-align: center;
+}
+.plants-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+.flower-name{
+    font-size: 22px;
+}
+.price{
+    font-size: 22px;
+    font-weight: 700;
+
+}
+.cart-btn{
+    font-weight: 600;
+    font-size: 16px;
+    background-color: rgba(233, 90, 8, 1);
+    color: white;
+    width: 270px;
+    height: 50px;
+}
+
+.plants-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    height: 54px;
+    width: 888px;
+    margin: 16px auto;
+    
+
+}
+.grid{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      max-width:1140px;
+      margin: 49px auto;
+    
+}
+.card-info{
+    text-align: center;
+}
