@@ -130,16 +130,20 @@ button{
 .card-info{
     text-align: center;
 }
+.card img{
+  width: 270px;
+  height: 322px;
 
+}
 
 
 .main-container{
     margin-top: 210px;
 }
 .container {
-  width: 1140px;
-  height: 597px;
   display: flex;
+  width: 1140px;
+  height: auto;
   gap: 50px;
   background-color: white;
   margin: auto;
@@ -438,3 +442,170 @@ button{
   object-fit: contain;
   cursor: pointer;
 }
+
+@media screen and (max-width: 576px) {
+  .nav-item{
+    display: none;
+  }
+   .banner {
+    display: flex;
+    flex-direction: column-reverse;
+    /* align-items: center; */
+    /* padding: 0 10px; */
+    /* text-align: center; */
+
+  .banner-title{
+    font-size: 32px;
+    line-height: 1.2;
+     height: auto;
+    width:361px;
+  }
+
+  .banner-description {
+    font-size: 14px;
+    width:100%;
+    margin-top: 5px;
+    height:auto;
+  }
+
+  .banner-img {
+    width: 100%;
+    height: auto;
+    margin-top:20px;
+
+  }
+  
+   }
+   .our-plants{
+    width: 100%;
+    height: 117px;
+    margin-top: 65px;
+    margin-left: 20px;
+
+
+    .plants-title{
+      width: 100%;
+      height: 33px;
+      font-size: 24px;
+      /* margin-top: 50px;
+      margin-left: 5px; */
+      margin: 50px auto 28px;
+    }
+    .plants-description{
+      width: 336px;
+      height: 68px;
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+   }
+   .grid{
+    display: grid;
+    grid-template-columns: repeat(2,4fr);
+    gap: 10px;
+  
+  }
+
+  .container{
+    flex-direction: column;
+
+    .badge{
+      display: none;
+    }
+    .right h2{
+      font-size: 24px;
+    }
+    .right li{
+      font-size:14px ;
+    }
+    .right{
+      margin-top: 18px;
+    }
+  
+  }
+  .deals-section{
+    margin-top: 143px;
+  }
+  .deals-header{
+    width: 393px;
+    height: auto;
+    margin-left: 10px;
+    
+  }
+  .deals-header h2{
+    margin-left: 80px;
+    font-size: 24px;
+   
+  }
+  .deals-header p {
+    margin-left: 70px;
+    font-size: 14px;
+  }
+
+    }
+    @media screen and (max-width: 576px) {
+   .deals-container {
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 80px;
+  }
+
+  .left-deals {
+    width: 100%;
+  
+  }
+
+  .deal-box.small,
+  .deal-box.large {
+    width: 361px;
+    height: auto;
+    border-radius: 14px;
+  } 
+
+  .deal-box img {
+    width: 361px;
+    height: auto;
+    margin-left: 5px;
+  }
+
+  .overlay-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
+
+  .overlay-title {
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+
+  .overlay-title-large {
+    font-size: 22px;
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+
+  .overlay-btn {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .overlay-btn2 {
+    font-size: 15px;
+    text-align:center;
+}
+
+
+    }
+
+
+
+
+   
+   
+
+
+  
