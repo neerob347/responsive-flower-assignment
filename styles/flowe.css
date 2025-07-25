@@ -362,3 +362,79 @@ button{
   border: none;
   cursor: pointer;
 }
+
+
+.footer {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.footer-container {
+  width: 1120px;
+  height: 248px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer-left {
+  width: 359px;
+  height: 179px;
+}
+
+.footer-left img.logo {
+  width: 100px;
+
+}
+
+.footer-left p {
+  font-size: 22px;
+  color:rgba(0, 0, 0, 0.5);
+  line-height: 1.5;
+  margin-bottom: 3px;
+}
+
+.footer-links {
+  width: 85px;
+  height: 248px;
+  gap: 26px;
+}
+
+.footer-features {
+  width: 128px;
+  height: 248px;
+}
+
+.footer-links ul,
+.footer-features ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer-links li,
+.footer-features li {
+  margin-bottom: 26px;
+  font-size: 14px;
+  color:#6B7280;
+  cursor: pointer;
+}
+
+.footer-social {
+  width: 216px;
+  height: 36px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.footer-social img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  cursor: pointer;
+}
